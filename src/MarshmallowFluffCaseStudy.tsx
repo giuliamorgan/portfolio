@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import mobileDesign from "@/imports/Screenshot_2024-03-12_231417.png";
 import lowFidelityWireframe from "@/imports/Screenshot_2024-03-12_175103.png";
 
-const RESUME_URL = "/Giulia-Morgan-Resume.pdf";
+const RESUME_URL = "/portfolio/Giulia-Morgan-Resume.pdf";
 
 const COLORS = {
   red: "#B84338",
@@ -21,9 +21,9 @@ const COLORS = {
 const SERIF = "'Cormorant Garamond', Georgia, serif";
 
 const NAV_LINKS = [
-  { label: "Work", href: "/work" },
-  { label: "About", href: "/about" },
-  { label: "Skills", href: "/skills" },
+  { label: "Work", href: "/portfolio#work" },
+  { label: "About", href: "/portfolio#about" },
+  { label: "Skills", href: "/portfolio#skills" },
   { label: "Resume", href: RESUME_URL, external: true },
   {
     label: "LinkedIn",
