@@ -19,9 +19,9 @@ const COLORS = {
 const SERIF = "'Cormorant Garamond', Georgia, serif";
 
 const NAV_LINKS = [
-  { label: "Work", href: "/#work" },
-  { label: "About", href: "/#about" },
-  { label: "Skills", href: "/#skills" },
+  { label: "Work", href: "/work" },
+  { label: "About", href: "/about" },
+  { label: "Skills", href: "/skills" },
   { label: "Resume", href: RESUME_URL, external: true },
   {
     label: "LinkedIn",
