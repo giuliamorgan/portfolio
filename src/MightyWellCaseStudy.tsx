@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import mightyWellArticle from "@/imports/Screenshot_2024-04-02_211629.png";
 import mightyWellInstagram from "@/imports/Screenshot_2024-04-02_210832.png";
 
-const RESUME_URL = "/Giulia-Morgan-Resume.pdf";
+const RESUME_URL = "/portfolio/Giulia-Morgan-Resume.pdf";
 
 const COLORS = {
   navy: "#102C49",
@@ -21,9 +21,9 @@ const COLORS = {
 const SERIF = "'Cormorant Garamond', Georgia, serif";
 
 const NAV_LINKS = [
-  { label: "Work", href: "/work" },
-  { label: "About", href: "/about" },
-  { label: "Skills", href: "/skills" },
+  { label: "Work", href: "/portfolio#work" },
+  { label: "About", href: "/portfolio#about" },
+  { label: "Skills", href: "/portfolio#skills" },
   { label: "Resume", href: RESUME_URL, external: true },
   {
     label: "LinkedIn",
