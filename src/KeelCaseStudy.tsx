@@ -70,28 +70,6 @@ function useWindowWidth() {
 
   return width;
 }
-      <video
-        src="/keel-website-redesign.mp4"
-        aria-label="Walkthrough of the redesigned Keel Project Management website"
-        autoPlay
-        muted
-        loop
-        playsInline
-        controls
-        preload="metadata"
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "block",
-          objectFit: "contain",
-          backgroundColor: "#FFFFFF",
-        }}
-      >
-        Your browser does not support the video element.
-      </video>
-    </div>
-  );
-}
 
 function KeelCaseStudy() {
   const [menuOpen, setMenuOpen] = useState(false);
