@@ -33,8 +33,10 @@ jobs:
       - name: Build portfolio
         run: npm run build -- --base=/portfolio/
 
-      - name: Add Keel video to built site
-        run: cp keel-website-redesign.mp4 dist/keel-website-redesign.mp4
+      - name: Add portfolio files to built site
+        run: |
+          cp keel-website-redesign.mp4 dist/keel-website-redesign.mp4
+          cp Giulia-Morgan-Resume.pdf dist/Giulia-Morgan-Resume.pdf
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
