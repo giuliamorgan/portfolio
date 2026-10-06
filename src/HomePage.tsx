@@ -9,8 +9,7 @@ import heartCityImage from "@/imports/HCHC_smoothie_image.png";
 import mightyWellArticle from "@/imports/Screenshot_2024-04-02_211629.png";
 import marshmallowFluff from "@/imports/Screenshot_2024-03-12_231417.png";
 
-/* Replace these placeholders before publishing. */
-const RESUME_URL = "#";
+const RESUME_URL = "/portfolio/Giulia-Morgan-Resume.pdf";
 const REVIEW_QUOTE =
   "Giulia sees a need at Keel and takes the initiative to act on it. It may involve forming a group or simply getting it done.";
 
