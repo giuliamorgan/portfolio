@@ -1,5 +1,10 @@
 import { createElement, useEffect } from "react";
-import { Outlet, useLocation, createBrowserRouter } from "react-router";
+import {
+  createBrowserRouter,
+  Outlet,
+  useLocation,
+} from "react-router";
+
 import HomePage from "./HomePage";
 import KeelCaseStudy from "./KeelCaseStudy";
 import HeartCityCaseStudy from "./HeartCityCaseStudy";
@@ -58,5 +63,5 @@ export const router = createBrowserRouter(
   ],
   {
     basename: "/portfolio",
-  }
+  },
 );
