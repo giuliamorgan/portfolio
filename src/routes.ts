@@ -36,4 +36,6 @@ export const router = createBrowserRouter([
     path: "/marshmallow-fluff",
     Component: MarshmallowFluffCaseStudy,
   },
-]);
+], {
+  basename: "/portfolio",
+});
