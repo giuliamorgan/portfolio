@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import dashboardMain from "@/imports/Image_9-9-26_at_1.12_PM.png";
 import excelDataModel from "@/imports/Screenshot_2026-09-08_at_4.05.19_PM.png";
 
-const RESUME_URL = "/Giulia-Morgan-Resume.pdf";
+const RESUME_URL = "/portfolio/Giulia-Morgan-Resume.pdf";
 
 const COLORS = {
   navy: "#102C49",
@@ -20,9 +20,9 @@ const COLORS = {
 };
 
 const NAV_LINKS = [
-  { label: "Work", href: "/#work" },
-  { label: "About", href: "/#about" },
-  { label: "Skills", href: "/#skills" },
+  { label: "Work", href: "/portfolio#work" },
+  { label: "About", href: "/portfolio#about" },
+  { label: "Skills", href: "/portfolio#skills" },
   { label: "Resume", href: RESUME_URL, external: true },
   {
     label: "LinkedIn",
