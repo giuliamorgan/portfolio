@@ -705,6 +705,13 @@ function KeelCaseStudy() {
                 </p>
               ))}
             </div>
+            
+            <div style={{ maxWidth: 1120, margin: "36px auto 0" }}>
+              <p style={{ ...EYEBROW_DARK, margin: "0 0 12px" }}>
+                Explore the Full Website
+              </p>
+
+              <WebsiteWalkthrough />
               <video
                 controls
                 playsInline
@@ -716,14 +723,6 @@ function KeelCaseStudy() {
                   type="video/mp4"
                 />
               </video>
-            
-            <div style={{ maxWidth: 1120, margin: "36px auto 0" }}>
-              <p style={{ ...EYEBROW_DARK, margin: "0 0 12px" }}>
-                Explore the Full Website
-              </p>
-
-              <WebsiteWalkthrough />
-
               <p
                 style={{
                   margin: "10px 0 0",
