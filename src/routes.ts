@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { createElement, useEffect } from "react";
 import { Outlet, useLocation, createBrowserRouter } from "react-router";
 import HomePage from "./HomePage";
 import KeelCaseStudy from "./KeelCaseStudy";
@@ -17,13 +17,13 @@ function ScrollToTop() {
     }
   }, [pathname]);
 
-  return <Outlet />;
+  return createElement(Outlet);
 }
 
 export const router = createBrowserRouter(
   [
     {
-      element: <ScrollToTop />,
+      element: createElement(ScrollToTop),
       children: [
         {
           path: "/",
