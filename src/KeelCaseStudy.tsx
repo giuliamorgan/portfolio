@@ -70,18 +70,6 @@ function useWindowWidth() {
 
   return width;
 }
-
-function WebsiteWalkthrough() {
-  return (
-    <div
-      style={{
-        width: "100%",
-        aspectRatio: "16 / 9",
-        overflow: "hidden",
-        backgroundColor: "#FFFFFF",
-        border: `1px solid ${COLORS.border}`,
-      }}
-    >
       <video
         src="/keel-website-redesign.mp4"
         aria-label="Walkthrough of the redesigned Keel Project Management website"
@@ -711,7 +699,6 @@ function KeelCaseStudy() {
                 Explore the Full Website
               </p>
 
-              <WebsiteWalkthrough />
               <video
                 controls
                 playsInline
