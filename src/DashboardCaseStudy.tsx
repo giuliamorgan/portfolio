@@ -338,11 +338,10 @@ export default function DashboardCaseStudy() {
           </div>
 
           {/* PRIMARY DASHBOARD VIEW */}
-          <div style={{ maxWidth: 1040, margin: "0 auto" }}>
+          <div style={{ maxWidth: 1200, margin: "0 auto" }}>
             <div
               style={{
-                position: "relative",
-                height: isMobile ? 260 : 420,
+                width: "100%",
                 overflow: "hidden",
                 backgroundColor: COLORS.cream,
                 border: `1px solid ${COLORS.border}`,
@@ -352,14 +351,9 @@ export default function DashboardCaseStudy() {
                 src={dashboardMain}
                 alt="Primary client-facing dashboard view"
                 style={{
-                  position: "absolute",
-                  top: 0,
-                  left: "-4%",
-                  width: "108%",
-                  height: "100%",
+                  width: "100%",
+                  height: "auto",
                   display: "block",
-                  objectFit: "cover",
-                  objectPosition: "center",
                 }}
               />
             </div>
@@ -557,24 +551,25 @@ export default function DashboardCaseStudy() {
           </div>
 
           {/* EXCEL DATA MODEL */}
-<div style={{ maxWidth: 1200, margin: "0 auto" }}>
-  <div
-    style={{
-      width: "100%",
-      border: `1px solid ${COLORS.border}`,
-      backgroundColor: COLORS.cream,
-    }}
-  >
-    <img
-      src={excelDataModel}
-      alt="Standardized Excel data model supporting the dashboard"
-      style={{
-        width: "100%",
-        height: "auto",
-        display: "block",
-      }}
-    />
-  </div>
+          <div style={{ maxWidth: 1200, margin: "0 auto" }}>
+            <div
+              style={{
+                width: "100%",
+                border: `1px solid ${COLORS.border}`,
+                overflow: "hidden",
+                backgroundColor: COLORS.cream,
+              }}
+            >
+              <img
+                src={excelDataModel}
+                alt="Standardized Excel data model supporting the dashboard"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                }}
+              />
+            </div>
 
             <p
               style={{
