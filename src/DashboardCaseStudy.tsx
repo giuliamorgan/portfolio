@@ -557,27 +557,24 @@ export default function DashboardCaseStudy() {
           </div>
 
           {/* EXCEL DATA MODEL */}
-          <div style={{ maxWidth: 960, margin: "0 auto" }}>
-            <div
-              style={{
-                height: isMobile ? 210 : 280,
-                border: `1px solid ${COLORS.border}`,
-                overflow: "hidden",
-                backgroundColor: COLORS.cream,
-              }}
-            >
-              <img
-                src={excelDataModel}
-                alt="Standardized Excel data model supporting the dashboard"
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  display: "block",
-                  objectFit: "cover",
-                  objectPosition: "top center",
-                }}
-              />
-            </div>
+<div style={{ maxWidth: 1200, margin: "0 auto" }}>
+  <div
+    style={{
+      width: "100%",
+      border: `1px solid ${COLORS.border}`,
+      backgroundColor: COLORS.cream,
+    }}
+  >
+    <img
+      src={excelDataModel}
+      alt="Standardized Excel data model supporting the dashboard"
+      style={{
+        width: "100%",
+        height: "auto",
+        display: "block",
+      }}
+    />
+  </div>
 
             <p
               style={{
