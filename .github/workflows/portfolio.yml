@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-        name: Build portfolio
+      - name: Build portfolio
         run: pnpm run build -- --base=/portfolio/
 
       - name: Add portfolio files to built site
