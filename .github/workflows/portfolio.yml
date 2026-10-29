@@ -27,11 +27,16 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm install
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+          with:
+            version: 10
 
-      - name: Build portfolio
-        run: npm run build -- --base=/portfolio/
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+        name: Build portfolio
+        run: pnpm run build -- --base=/portfolio/
 
       - name: Add portfolio files to built site
         run: |
