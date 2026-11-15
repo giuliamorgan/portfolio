@@ -684,7 +684,7 @@ function KeelCaseStudy() {
                 className="w-full h-auto"
               >
                 <source
-                  src="https://giuliamorgan.github.io/portfolio/keel-website-redesign.mp4"
+                  src="https://giuliamorgan.github.io/portfolio/keel-website-redesign (2).mp4"
                   type="video/mp4"
                 />
               </video>
