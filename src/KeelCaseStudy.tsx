@@ -824,16 +824,16 @@ function KeelCaseStudy() {
               >
                 {[
                   {
-                    value: "15×+ Traffic Growth",
-                    body: "Monthly website traffic increased by more than 15× from October 2025 to September 2026.",
+                    value: "10×+ Traffic Growth",
+                    body: "Monthly website traffic increased by more than 10× in one year following launch of the redesign.",
                   },
                   {
-                    value: "Elevated Brand Positioning",
-                    body: "Reorganized the brand, services, and website messaging around the needs of senior decision-makers.",
+                    value: "3x+ LinkedIn Audience Growth",
+                    body: "Tripled Keel's LinkedIn following through consistent content strategy focused on thought leadership, brand visibility, and audience engagement.",
                   },
                   {
-                    value: "Measurement System Established",
-                    body: "Connected GA4, Search Console, Microsoft Clarity, and Looker Studio to support recurring reporting and optimization.",
+                    value: "Brand & Digital Transformation",
+                    body: "Led a comprehensive website redesign, refining brand positioning, messaging, and digital experience to better connect with target audiences.",
                   },
                 ].map((item, index) => (
                   <div
