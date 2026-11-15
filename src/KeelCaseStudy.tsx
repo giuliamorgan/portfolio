@@ -5,8 +5,6 @@ import oldKeelHomepage from "@/imports/Screenshot_2026-09-08_192740.png";
 import newKeelHomepage from "@/imports/Faster_Decisions.png";
 import contentStrategyImg from "@/imports/Screenshot_2026-09-16_at_1.07.34_PM.PNG";
 import analyticsImg from "@/imports/Screenshot_2026-09-16_at_1.09.53_PM.PNG";
-import IPhoneMockup from "./IPhoneMockup";
-import LaptopMockup from "./LaptopMockup";
 
 const RESUME_URL = "/portfolio/Giulia-Morgan-Resume.pdf";
 
@@ -580,60 +578,38 @@ function KeelCaseStudy() {
               content structure.
             </p>
 
-            {/* DEVICE RENDERINGS */}
-            <div style={{ maxWidth: 1120, margin: "0 auto" }}>
-              <div
+            {/* RESPONSIVE WEBSITE WALKTHROUGH */}
+            <div style={{ maxWidth: 1120, margin: "0 auto 28px" }}>
+              <video
+                controls
+                playsInline
+                preload="metadata"
+                aria-label="Keel redesigned website walkthrough"
                 style={{
-                  position: "relative",
-                  height: isMobile ? 400 : isTablet ? 490 : 530,
-                  backgroundColor: "#F0F5F8",
+                  display: "block",
+                  width: "100%",
+                  height: "auto",
                   border: `1px solid ${COLORS.border}`,
-                  overflow: "hidden",
+                  borderRadius: 4,
+                  backgroundColor: COLORS.navy,
                 }}
               >
-                <div
-                  style={{
-                    position: "absolute",
-                    left: isMobile ? "50%" : "5%",
-                    bottom: isMobile ? 88 : isTablet ? 8 : 0,
-                    width: isMobile ? "94%" : "74%",
-                    display: "flex",
-                    justifyContent: "center",
-                    transform: isMobile ? "translateX(-50%)" : "none",
-                  }}
-                >
-                  <LaptopMockup
-                    width={isMobile ? 300 : isTablet ? 500 : 650}
-                  />
-                </div>
-
-                <div
-                  style={{
-                    position: "absolute",
-                    right: isMobile ? "50%" : "7%",
-                    bottom: isMobile ? 12 : 24,
-                    zIndex: 2,
-                    transform: isMobile ? "translateX(50%)" : "none",
-                    filter:
-                      "drop-shadow(0 16px 24px rgba(16,44,73,0.14))",
-                  }}
-                >
-                  <IPhoneMockup
-                    width={isMobile ? 100 : isTablet ? 136 : 154}
-                  />
-                </div>
-              </div>
-
+                <source
+                  src="https://giuliamorgan.github.io/portfolio/keel-website-redesign.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support HTML video.
+              </video>
               <p
                 style={{
-                  margin: "10px 0 28px",
+                  margin: "10px 0 0",
                   fontSize: 12,
                   lineHeight: 1.5,
                   color: COLORS.muted,
                   textAlign: "center",
                 }}
               >
-                Built responsively across desktop, tablet, and mobile
+                Walk through the complete responsive website experience
               </p>
             </div>
 
@@ -672,34 +648,6 @@ function KeelCaseStudy() {
               ))}
             </div>
             
-            <div style={{ maxWidth: 1120, margin: "36px auto 0" }}>
-              <p style={{ ...EYEBROW_DARK, margin: "0 0 12px" }}>
-                Explore the Full Website
-              </p>
-
-              <video
-                controls
-                playsInline
-                preload="metadata"
-                className="w-full h-auto"
-              >
-                <source
-                  src="https://giuliamorgan.github.io/portfolio/keel-website-redesign.mp4"
-                  type="video/mp4"
-                />
-              </video>
-              <p
-                style={{
-                  margin: "10px 0 0",
-                  fontSize: 12,
-                  lineHeight: 1.5,
-                  color: COLORS.muted,
-                  textAlign: "center",
-                }}
-              >
-                Walk through the complete responsive website experience
-              </p>
-            </div>
           </div>
         </section>
 
